@@ -3,7 +3,12 @@ body {
   background-color: #fff;
   margin:0;
 }
-
+.hf{
+  display: inline-block;
+  color: #fff;
+  position: static!important;
+  border-bottom: none!important;
+}
 .home {
   width: 100%;
   height: 100vh;
