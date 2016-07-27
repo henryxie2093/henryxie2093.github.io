@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>henryxie</title>
+    <meta name="author" content="henryxie" />
+    <meta name="description" content="fullPage based cv for henry." />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/cv.css">
+    <!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="footer"></div>
+    <div class="loading"></div>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <div class="intro">
+                <h1>Fixed elements</h1>
+                <p>Create your own headers and footers</p>
+            </div>
+        </div>
+        <div class="section" id="section1">
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>Enjoy it</h1>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>Enjoy it</h1>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="intro">
+                <h1>Enjoy it</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="./javascripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./javascripts/jquery.fullPage.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".loading").hide('slow', function() {
+        $("#fullpage").show();
+    });
+    $('#fullpage').fullpage({
+        css3: true,
+        loopBottom: true,
+        loopTop: true,
+        loopHorizontal: true,
+        navigation: true,
+        navigationPosition: 'right'
+    });
+});
+</script>
+
+</html>
