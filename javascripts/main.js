@@ -1,5 +1,9 @@
 ;(function () {
-    console.log("make yourself at home :)")
+    console.log("make yourself at home :)");
+    $(".back-home").click(function () {
+        $('.open-overlay').click();
+    })
+
     $('.open-overlay').click(function() {
         $('.open-overlay').css('pointer-events', 'none');
         var overlay_navigation = $('.overlay-navigation'),

@@ -12,9 +12,13 @@
         margin: 0;
         padding: 0;
     }
+    #name{
+        text-shadow: 2px 1px 20px #f9f9f9;
+    }
     
     .intro p {
         color: #fff;
+        font-family: arial, helvetica;
     }
     /* Centered texts in each section
 	* --------------------------------------- */
@@ -46,35 +50,77 @@
     #footer {
         bottom: 0px;
     }
-    
+    .back{
+        float: left;
+        color: #fff;
+        font-family: arial, helvetica;
+        margin-left: 10px;
+        text-decoration: none;
+        display: block;
+        padding: 0 5px 0 5px;
+        transition:0.5s;
+    }
+    .back:hover{
+        background-color: #000;
+        border-radius: 3px;
+    }
+    .ch{
+        float: right;
+        color: #fff;
+        font-family: arial, helvetica;
+        margin-right: 10px;
+        text-decoration: none;
+        display: block;
+        padding: 0 5px 0 5px;
+    }
+    .ch:hover{
+        background-color: #000;
+        border-radius: 3px;   
+    }
+    #zh{
+        
+    }
+    #en{
+        background-color: #000;
+        border-radius: 3px;
+        cursor: not-allowed;   
+    }
+    .p-in{
+        color: #fff;
+        text-decoration: none;
+        transition:0.5s;
+    }
+    .p-in:hover{
+        color: #7fd5b8;
+    }
     #section0 {
-        background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-        background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-        background: linear-gradient(#4BBFC3, #7BAABE);
+        background: -webkit-gradient(linear, top left, bottom left, from(#007F54), to(#008C5E));
+        background: -webkit-linear-gradient(#007F54, #008C5E);
+        background: linear-gradient(#007F54, #008C5E);
     }
     
     #section1 {
-        background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
-        background: -webkit-linear-gradient(#969AC6, #636F8F);
-        background: linear-gradient(#969AC6, #636F8F);
+        background: -webkit-gradient(linear, top left, bottom left, from(#008C5E), to(#00A06B));
+        background: -webkit-linear-gradient(#008C5E, #00A06B);
+        background: linear-gradient(#008C5E, #00A06B);
     }
     
     #section2 {
-        background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-        background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-        background: linear-gradient(#4BBFC3, #7BAABE);
+        background: -webkit-gradient(linear, top left, bottom left, from(#00A06B), to(#00AE72));
+        background: -webkit-linear-gradient(#00A06B, #00AE72);
+        background: linear-gradient(#00A06B, #00AE72);
     }
     
     #section3 {
-        background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-        background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-        background: linear-gradient(#4BBFC3, #7BAABE);
+        background: -webkit-gradient(linear, top left, bottom left, from(#00AE72), to(#67BF7F));
+        background: -webkit-linear-gradient(#00AE72, #67BF7F);
+        background: linear-gradient(#00AE72, #67BF7F);
     }
     
     #section4 {
-        background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-        background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-        background: linear-gradient(#4BBFC3, #7BAABE);
+        background: -webkit-gradient(linear, top left, bottom left, from(#67BF7F), to(#4db98d));
+        background: -webkit-linear-gradient(#67BF7F, #4db98d);
+        background: linear-gradient(#67BF7F, #4db98d);
     }
     /* Bottom menu
 	* --------------------------------------- */
@@ -89,7 +135,7 @@
     }
     
     body {
-        background: #1c2e40;
+        background: #008c5e;
     }
     
     .centerMe {
@@ -109,8 +155,8 @@
         height: 25px;
         width: 10px;
         border-radius: 10%;
-        background: #2c3e50;
-        border-top-color: #2980b9;
+        background: #67BF7F;
+        border-top-color: #fff;
         -webkit-animation: fade2 1s infinite;
         animation: fade2 1s infinite;
         -webkit-transition: background .2s;
@@ -124,7 +170,7 @@
         display: block;
         height: 20px;
         width: 10px;
-        background: #2c3e50;
+        background: #67BF7F;
         top: 50%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -144,36 +190,36 @@
     
     @-webkit-keyframes fade1 {
         0% {
-            background: #2980b9;
+            background: #fff;
         }
     }
     
     @keyframes fade1 {
         0% {
-            background: #2980b9;
+            background: #fff;
         }
     }
     
     @-webkit-keyframes fade2 {
         33% {
-            background: #2980b9;
+            background: #fff;
         }
     }
     
     @keyframes fade2 {
         33% {
-            background: #2980b9;
+            background: #fff;
         }
     }
     
     @-webkit-keyframes fade3 {
         66% {
-            background: #2980b9;
+            background: #fff;
         }
     }
     
     @keyframes fade3 {
         66% {
-            background: #2980b9;
+            background: #fff;
         }
     }
